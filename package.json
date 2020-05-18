@@ -1,0 +1,16 @@
+{
+  "name": "14.1.1",
+  "version": "1.0.0",
+  "description": "Quick test case for nyc bug #1281",
+  "main": "test.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "coverage": "nyc tape test/*.js"
+  },
+  "author": "Aral Balkan",
+  "license": "MIT",
+  "dependencies": {
+    "nyc": "^15.0.1",
+    "tape": "^5.0.0"
+  }
+}
